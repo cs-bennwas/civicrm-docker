@@ -13,9 +13,9 @@
 # Images are generated for all supported minor releases of PHP that are
 # recommended by CiviCRM.
 
-ARG PHP_VERSION=8.3
+ARG IMAGE_TAG=apache
 
-FROM php:${PHP_VERSION}-apache-bookworm
+FROM php:${IMAGE_TAG}
 
 # Install required packages (including those required for PHP extensions).
 # 
